@@ -1,0 +1,8 @@
+lessons learned 11/16/2024
+* only have to include the app url in project url.py once
+* html/http going to be important to develop this 
+* register/login are built in, harder to use than thought 
+* register form routes unexpectedly to main on bad error without .as_p
+
+issues 
+* how to include templates for django.contrib.auth views

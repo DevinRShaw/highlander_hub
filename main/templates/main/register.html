@@ -1,0 +1,6 @@
+<!-- main/register.html -->
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}  <!-- This will display the form with error messages -->
+    <button type="submit">Register</button>
+</form>
