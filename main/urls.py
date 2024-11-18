@@ -1,4 +1,5 @@
 from django.urls import path, include
+from django.contrib import admin
 
 from . import views
 
@@ -7,6 +8,6 @@ urlpatterns = [
     path("", views.index, name="index"),
     #importing a form and using as context for html
     path("register/", views.register, name = "register"),
-    #already handled
+    #already handled, now have to figure out how to access them
     path("accounts/", include("django.contrib.auth.urls")),
 ]

@@ -11,7 +11,7 @@ def index(request):
 def register(request):
 
     if request.method == 'POST':
-        form = UserCreationForm(request.POST)
+        form = UserCreationForm(request.POST) 
         if form.is_valid():
             form.save()
             return HttpResponse("User created successfully!")
@@ -22,3 +22,5 @@ def register(request):
     else:
         form = UserCreationForm()
         return render(request, 'main/register.html', {'form': form})
+
+

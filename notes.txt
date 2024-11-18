@@ -6,3 +6,30 @@ lessons learned 11/16/2024
 
 issues 
 * how to include templates for django.contrib.auth views
+
+things to research 
+* what is the CreateUserForm doing
+* html/http and how they work 
+
+
+lessons learned 11/18/2024 
+* get and post = intuitive, get is to retreive from server, post is to add info into the server 
+* get logs activity so post is meant for sensitive information such as passwords 
+
+* django form != same thing as an html form, it is a class that abstracts html form creation 
+    * the input fields are also different classes to handle different inputs 
+    * A widget is Django’s representation of an HTML input element, fields representation of widget 
+    * all of it is class abstraction of html creation 
+
+    * When rendering an object in Django, we generally:
+        get hold of it in the view (fetch it from the database, for example)
+
+        pass it to the template context
+
+        expand it to HTML markup using template variables
+
+issues
+* still cannot figure out how to render the auth built in views, has to do with the templates 
+    *possible work around to just create a login field and move on to have core function? 
+    
+
