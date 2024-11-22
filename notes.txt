@@ -31,5 +31,14 @@ lessons learned 11/18/2024
 issues
 * still cannot figure out how to render the auth built in views, has to do with the templates 
     *possible work around to just create a login field and move on to have core function? 
-    
+    *cannot figure it out might have to create that custom login view/template
+    *now have to work on understanding form creation, and using the django authentication models to do it myself 
+
+
+lessons learned 11/21/2024 
+* templates/registration/login.html is template path 
+    * for access on site you use main/account/login
+    * custom templates in templates/main/
+    * built in templates at whatever templates/folder specified, but still main/whatever 
+
 

@@ -24,3 +24,10 @@ def register(request):
         return render(request, 'main/register.html', {'form': form})
 
 
+def login(request):
+
+    if request.method == 'POST':
+        form = LoginForm(request.POST) # create this form 
+        #implement the logic to check if user exists in the system 
+        #dont forget to include the import statements 
+        
