@@ -41,4 +41,12 @@ lessons learned 11/21/2024
     * custom templates in templates/main/
     * built in templates at whatever templates/folder specified, but still main/whatever 
 
+to do list 
+* https://learndjango.com/tutorials/django-login-and-logout-tutorial#sign-up-page
+    * use this for adding the homepage logic, to the index
+        * if logged in then show the home page
+            *if not go to login, add link to register to log in as well
 
+* how to add a general access password to authenticating 
+
+* create an admin user for this project 
